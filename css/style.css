@@ -100,7 +100,6 @@ nav ul li:hover{
     font-weight: 200;
     height: 100%;
     margin: 10px auto;
-    border: 1px solid purple;
 }
 
 .steve{
@@ -112,11 +111,8 @@ nav ul li:hover{
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    font-size: 32px;
     background-color: rgb(2, 19, 41);
 }
 
@@ -131,13 +127,15 @@ nav ul li:hover{
     width: 65%;
     font-family: 'Raleway',sans-serif;
     font-weight: 200;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 290px;
+    margin-right: 50px;
+    color: #fff;
+    font-size: 32px;
 }
 
 /*section 3*/
 #hobies{
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -150,7 +148,6 @@ nav ul li:hover{
     margin-left: 150px;
     padding: 20px 20px;
     width: 30%;
- 
 }
 
 #player-deezer p{
@@ -207,7 +204,7 @@ footer{
     transition: 0.9;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:1046px){
     #bloco{
         flex-direction: column;
     }
@@ -218,7 +215,6 @@ footer{
         justify-content: center;
         align-items: center;
         margin-bottom: 80px;
-        border: 1px solid red;
     }
     
     .img-img{
@@ -229,6 +225,38 @@ footer{
     #info-bloco{
         width: 50%;
         margin-bottom: 80px;
+        margin-left: 80px;
         font-size: 28px;
     }
+
+
+    #hobies{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #player-deezer{
+       margin-top: 20px; 
+       width: 40%;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       margin-left: 0px;
+       padding: 0px 0px;
+
+    }
+
+    #info-hobies{
+        margin: 20px 0px 20px 0px;
+        margin-left: 0px;
+        font-size: 28px;
+    }
+
+}
+@media screen and (max-width:400px){
+    #info-hobies{
+        margin: 20px 0px 20px -90px;
+        font-size: 28px;
+    }
+
 }
