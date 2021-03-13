@@ -80,7 +80,7 @@ nav ul li:hover{
     flex-direction: column;
     font-size: 32px;
     color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/sky-with-ice.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-sec1.jpg);
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
