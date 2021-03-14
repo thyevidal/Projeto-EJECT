@@ -145,7 +145,7 @@ nav ul li:hover{
 }
 
 /*CONTEUDO section 3*/
-#hobies{
+#curiosidades{
     height: 80vh;
     width: 100%;
     display: flex;
@@ -182,12 +182,6 @@ nav ul li:hover{
     font-size: 32px;
 }
 
-#info-hobies p p{
-    font-weight: bold;
-    font-size: 36px;
-    border: 1px solid red;
-}
-
 /* rodape */
 footer{
     height: 150px;
@@ -203,6 +197,13 @@ footer{
     padding-left: 40px;
     padding-right: 40px;
     margin-bottom: 10px;
+}
+
+#menu-rodape p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 3px;
 }
 
 #menu-rodape ul{
@@ -268,7 +269,7 @@ footer{
     }
 
 
-    #hobies{
+    #curiosidades{
         flex-direction: column;
         height: 100%;
     }
@@ -291,7 +292,7 @@ footer{
     }
 
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:670px){
     #info-hobies{
         margin: 20px 0px 20px 0px;
         font-size: 28px;
@@ -300,6 +301,10 @@ footer{
     #sobre{
         height: 130vh;
         padding-bottom: -200px;
+    }
+
+    #player-deezer{
+        
     }
 
 }
